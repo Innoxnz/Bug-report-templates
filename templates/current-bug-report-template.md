@@ -1,7 +1,7 @@
 # 🐛 Bug Report Template
 
 > [!NOTE]
-> This is the template that is curretnly being used at my current work. As you might know every company operates differently.
+> This is the template that is being used at work. As you might know every company operates differently.
 > In our case all the testing is happening in 1 environment, before going to production. That is why I did not mention any environment (staging, for example)<br>
 > Regarding the test steps: all developers are doing small tests before deploying into staging and once bug is found we hand it over to the same developer who created the feature.
 > So basically everyone knows the steps to test the feature.<br>
