@@ -1,15 +1,25 @@
 # 🐛 Bug Report Template
 
+> [!NOTE]
+> This is the template that is curretnly being used at my current work. As you might know every company operates differently.
+> In our case all the testing is happening in 1 environment, before going to production. That is why I did not mention any environment (staging, for example)<br>
+> Regarding the test steps: all developers are doing small tests before deploying into staging and once bug is found we hand it over to the same developer who created the feature.
+> So basically everyone knows the steps to test the feature.<br>
+> For some of you it might look reasonable for other not, but as long as it works, we find bugs and prevent any leaks in production then it should be fine!
+> Have a look at the template! Let me know what you think! 👐
+
 **Instructions:**  Use this page as a lightweight QA template for release validation. Copy it for each deployment, replace placeholders, and add rows only when needed.
 
  ---
 
 
+## Feature Testing
+
 
 ```
-Production test →  done  {date} , {issues/no issues} + { ✔️  / ❎ }
+• Production test →  done  {date} , {issues/no issues} + { ✔️  / ❎ }
 
-Staging testing → done  {date} , {issues/no issues} + { ✔️  / ❎ }
+• Staging testing → done  {date} , {issues/no issues} + { ✔️  / ❎ }
 ```
 
  
@@ -72,7 +82,7 @@ Non-functional
 | **TIP_ID:** 002<br>**Title:** Another test | Describe what needs to be checked. | Describe the actual result. | ☐ OK / ☐ Need to fix |
 
 
-### 🔄 Regression Test on Production
+### 🔄 Regression Test in Production
 
 | **Name** | **What to Check** | **Results** | **Status** |
 |---|---|---|---|
@@ -86,5 +96,9 @@ Non-functional
 | **Test Name** | **Results** | **Status** | **Final Results** |
 |---|---|---|---|
 | `ISSUE_001`<br>**Test:** Login validation | **Where:** Login page<br>**When:** After submitting the form<br>**What:** Error message is not displayed.  | ☐ Bug<br>☐ Question<br>☐ Improvement<br> | Validation message needs to be added. |
+
+
+
+Template by Innoxnz — QA Engineer
 
 
