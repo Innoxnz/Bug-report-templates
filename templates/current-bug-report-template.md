@@ -15,12 +15,10 @@
 
 ## Feature Testing
 
-
-```
-• Production test →  done  {date} , {issues/no issues} + { ✔️  / ❎ }
-
-• Staging testing → done  {date} , {issues/no issues} + { ✔️  / ❎ }
-```
+| **Testing Phase** | **Date** | **Result** | **Status** |
+|---|---|---|---|
+| Staging | `{date}` | `{issues / no issues}` | ☐ |
+| Production | `{date}` | `{issues / no issues}` | ☐ |
 
  
 
@@ -49,11 +47,11 @@ Non-functional
 
  ☐ Security Testing to check vulnerabilities like XSS and SQL injection
 
- ☐ Performance Testing using JMeter for load and stress testing
+ ☐ Performance Testing using JMeter for load and stress testing:
 
- ☐ Load Testing → Tests performance under expected number of users.
+   ☐ Load Testing → Tests performance under expected number of users.
 
- ☐ Stress Testing → Tests how the system behaves under extreme conditions.
+   ☐ Stress Testing → Tests how the system behaves under extreme conditions.
 ```
 
 ---
@@ -68,9 +66,9 @@ Non-functional
 
  ### 🐛 Bugs to fix / Questions / Improvements
 
-| **Test Name** | **Results** | **Status** | **Final Results** |
+| **Test Name** | **Results** | **Issue Type** | **Final Results** |
 |---|---|---|---|
-| **Test_ID:** 001<br>**Issue_ID:** ISSUE_001<br><br> |**Where:** Login page<br>**When:** After submitting the form<br>**What:** Error message is not displayed.<br> Expected error message, but no message was displayed. | ☐ Bug<br>☐ Question<br>☐ Improvement<br> | Fix validation message and retest. |
+| **Test_ID:** 001<br>**Issue_ID:** 001<br><br> |**Where:** Login page<br>**When:** After submitting the form<br>**What:** Error message is not displayed.<br> Expected error message, but no message was displayed. | ☐ Bug<br>☐ Question<br>☐ Improvement<br> | Fix validation message and retest. |
 
 ---
 
@@ -93,9 +91,9 @@ Non-functional
 ###  🛠️ Other Bugs / Questions / Improvements not related to the feature
 
 
-| **Test Name** | **Results** | **Status** | **Final Results** |
+| **Test Name** | **Results** | **Issue Type** | **Final Results** |
 |---|---|---|---|
-| `ISSUE_001`<br>**Test:** Login validation | **Where:** Login page<br>**When:** After submitting the form<br>**What:** Error message is not displayed.  | ☐ Bug<br>☐ Question<br>☐ Improvement<br> | Validation message needs to be added. |
+| Issue_ID: 001<br>**Test:** Login validation | **Where:** Login page<br>**When:** After submitting the form<br>**What:** Error message is not displayed.  | ☐ Bug<br>☐ Question<br>☐ Improvement<br> | Validation message needs to be added. |
 
 
 
