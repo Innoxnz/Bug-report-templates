@@ -4,8 +4,8 @@
 
 | **Testing Phase** | **Date** | **Result** | **Status** |
 |---|---|---|---|
-| Staging | `{date}` | `{issues / no issues}` | ☐ |
-| Production | `{date}` | `{issues / no issues}` | ☐ |
+| Staging | `08/28/2026` | `no issues` | ☑ |
+| Production | `08/31/2026` | `no issues` | ☑ |
 
  
 
@@ -47,7 +47,7 @@ Non-functional
 
 | **Test case** | **Acceptance Criteria (Expected result)** | **Input data** | **Results** | **Status** |
 |---|---|---|---|---|
-| **Test_ID:** 001<br>**Title:** Verify user can log in with valid credentials | ☐ User should be successfully logged in<br> ☐ User should be redirected to the dashboard<br>| Login: test@gmail.com <br> Password: Ybx123!bc34 | Logged in <br> + Evidence(screenshot, video , etc) | ☐ OK / ☐ Need to fix |
+| **Test_ID:** 001<br>**Title:** Verify user can log in with valid credentials | ☑ User should be successfully logged in<br> ☑ User should be redirected to the dashboard<br>| Login: test@gmail.com <br> Password: Ybx123!bc34 | Logged in <br> + Evidence(screenshot, video , etc) | ☑ OK / ☐ Need to fix |
 
 
 
@@ -55,7 +55,7 @@ Non-functional
 
 | **Test Name** | **Results** | **Issue Type** | **Final Results** |
 |---|---|---|---|
-| **Test_ID:** 001<br>**Issue_ID:** 001<br><br> |**Where:** Login page<br>**When:** After submitting the form<br>**What:** Error message is not displayed.<br> Expected error message, but no message was displayed<br> + Evidence(screenshot, video , etc) | ☐ Bug<br>☐ Question<br>☐ Improvement<br> | Fix validation message and retest. |
+| **Test_ID:** 001<br>**Issue_ID:** 001<br><br> |**Where:** Login page<br>**When:** After logging in <br>**What:** A user is not redirected to the dashboard.<br> A user should be redirected<br> + Evidence(screenshot, video , etc) | ☑ Bug<br>☐ Question<br>☐ Improvement<br> | UPD: 08/28/2026: <br> Fixed ✔️ <br > + Evidence(screenshot, video , etc)|
 
 ---
 
@@ -63,7 +63,7 @@ Non-functional
 
 | **Name** | **What to Check** | **Results** | **Status** |
 |---|---|---|---|
-| **TIP_ID:** 001<br>**Title:** Test title | Describe what needs to be checked. | Describe the actual result<br> + Evidence(screenshot, video , etc) | ☐ OK / ☐ Need to fix |
+| **TIP_ID:** 001<br>**Title:** Test title | ☑ User should be successfully logged in<br> ☑ User should be redirected to the dashboard. | Logged in and redirected to the dashboard <br> + Evidence(screenshot, video , etc) | ☑ OK / ☐ Need to fix |
 | **TIP_ID:** 002<br>**Title:** Another test | Describe what needs to be checked. | Describe the actual result<br> + Evidence(screenshot, video , etc) | ☐ OK / ☐ Need to fix |
 
 
