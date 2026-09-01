@@ -60,15 +60,15 @@ Non-functional
 
 | **Test case** | **Acceptance Criteria (Expected result)** | **Input data** | **Results** | **Status** |
 |---|---|---|---|---|
-| **Test_ID:** 001<br>**Title:** Enter test case title | Describe the expected result here. | Enter the input data used for the test. | Describe the actual result. | ☐ OK / ☐ Need to fix |
+| **Test_ID:** 001<br>**Title:** Enter test case title | Describe the expected result here. | Enter the input data used for the test. | Describe the actual result<br> + Evidence(screenshot, video , etc) | ☐ OK / ☐ Need to fix |
 
 
 
- ### 🐛 Bugs to fix / Questions / Improvements
+ ### 🐛Feature-Related Bugs to fix / Questions / Improvements
 
 | **Test Name** | **Results** | **Issue Type** | **Final Results** |
 |---|---|---|---|
-| **Test_ID:** 001<br>**Issue_ID:** 001<br><br> |**Where:** Login page<br>**When:** After submitting the form<br>**What:** Error message is not displayed.<br> Expected error message, but no message was displayed. | ☐ Bug<br>☐ Question<br>☐ Improvement<br> | Fix validation message and retest. |
+| **Test_ID:** 001<br>**Issue_ID:** 001<br><br> |**Where:** Login page<br>**When:** After submitting the form<br>**What:** Error message is not displayed.<br> Expected error message, but no message was displayed<br> + Evidence(screenshot, video , etc) | ☐ Bug<br>☐ Question<br>☐ Improvement<br> | Fix validation message and retest. |
 
 ---
 
@@ -76,16 +76,16 @@ Non-functional
 
 | **Name** | **What to Check** | **Results** | **Status** |
 |---|---|---|---|
-| **TIP_ID:** 001<br>**Title:** Test title | Describe what needs to be checked. | Describe the actual result. | ☐ OK / ☐ Need to fix |
-| **TIP_ID:** 002<br>**Title:** Another test | Describe what needs to be checked. | Describe the actual result. | ☐ OK / ☐ Need to fix |
+| **TIP_ID:** 001<br>**Title:** Test title | Describe what needs to be checked. | Describe the actual result<br> + Evidence(screenshot, video , etc) | ☐ OK / ☐ Need to fix |
+| **TIP_ID:** 002<br>**Title:** Another test | Describe what needs to be checked. | Describe the actual result<br> + Evidence(screenshot, video , etc) | ☐ OK / ☐ Need to fix |
 
 
 ### 🔄 Regression Test in Production
 
 | **Name** | **What to Check** | **Results** | **Status** |
 |---|---|---|---|
-| **RT_ID:** 001<br>**Title:** Regression test title | Describe what needs to be checked. | Describe the actual result. | ☐ OK / ☐ Need to fix |
-| **RT_ID:** 002<br>**Title:** Another regression test | Describe what needs to be checked. | Describe the actual result. | ☐ OK / ☐ Need to fix |
+| **RT_ID:** 001<br>**Title:** Regression test title | Describe what needs to be checked. | Describe the actual result<br> + Evidence(screenshot, video , etc) | ☐ OK / ☐ Need to fix |
+| **RT_ID:** 002<br>**Title:** Another regression test | Describe what needs to be checked. | Describe the actual result<br> + Evidence(screenshot, video , etc) | ☐ OK / ☐ Need to fix |
 
 
 ###  🛠️ Other Bugs / Questions / Improvements not related to the feature
@@ -93,7 +93,7 @@ Non-functional
 
 | **Test Name** | **Results** | **Issue Type** | **Final Results** |
 |---|---|---|---|
-| Issue_ID: 001<br>**Test:** Login validation | **Where:** Login page<br>**When:** After submitting the form<br>**What:** Error message is not displayed.  | ☐ Bug<br>☐ Question<br>☐ Improvement<br> | Validation message needs to be added. |
+| Issue_ID: 001<br>**Test:** Login validation | **Where:** Login page<br>**When:** After submitting the form<br>**What:** Error message is not displayed <br> + Evidence(screenshot, video , etc)  | ☐ Bug<br>☐ Question<br>☐ Improvement<br> | Validation message needs to be added. |
 
 
 
